@@ -40,7 +40,7 @@ namespace APICatalogo.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Descricao = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    Preco = table.Column<decimal>(type: "decimal(65,30)", nullable: false),
+                    Preco = table.Column<decimal>(type: "decimal(14,4)", nullable: false),
                     ImagemUrl = table.Column<string>(type: "longtext", nullable: true)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Estoque = table.Column<float>(type: "float", nullable: false),
