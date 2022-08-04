@@ -6,7 +6,7 @@
         public string? Nome { get; set; }
         public string? Descricao { get; set; }
         public Decimal? Preco { get; set; }
-        public string? Imagem1 { get; set; }
+        public string? Imagem { get; set; }
         public DateTime DataCompra { get; set; }
         public int Estoque { get; set; }
 
